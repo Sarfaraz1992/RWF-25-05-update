@@ -1,0 +1,103 @@
+@import url("style.css");
+
+/* About Page Styles */
+.contact-us {
+    padding: 40px 0px;
+}
+.contact-us .contact-details {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 40px 30px;
+}
+.contact-us .contact-details h3 {
+    padding-bottom: 20px;
+}
+.contact-us .contact-details .location,
+.contact-us .contact-details .query,
+.contact-us .contact-details .email {
+    padding-bottom: 1px;
+    border-bottom: 1px dashed var(--white);
+    margin-bottom: 20px;
+}
+.contact-us .contact-details .query p:nth-child(2),
+.contact-us .contact-details .email p:nth-child(2) {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.contact-us .contact-details .location p:first-child,
+.contact-us .contact-details .query p:first-child,
+.contact-us .contact-details .email p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-us .contact-form {
+    background: var(--third-color);
+    color: var(--primary-color);
+    padding: 40px 30px;
+}
+.contact-us .contact-details .location p:last-child {
+    margin-bottom: 5px;
+}
+.contact-us .contact-form .submit-data {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 7px 20px 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.contact-us .contact-form .submit-data:hover {
+    background: var(--white);
+    color: var(--primary-color);
+}
+
+
+/* our service css */
+.service {
+    padding: 40px 0px;
+}
+.service .developers,
+.service .agent,
+.service .buyer {
+    background-color: var(--third-color);
+    padding: 20px 20px 10px 20px;
+} 
+.service .developers h6,
+.service .agent h6,
+.service .buyer h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.benefits-btn a {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 10px 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.benefits-btn a:hover {
+    background: var(--white);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.service-rate .benefits-btn {
+    text-align: right;
+}
+.service .developers ul,
+.service .agent ul,
+.service .buyer ul {
+    padding-left: 20px;
+}
+.service ul li {
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #b1b1b1;
+    margin-bottom: 10px;
+}

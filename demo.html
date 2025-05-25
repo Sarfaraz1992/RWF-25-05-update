@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a class="username" data-target="#agentModal" value="user">Click 1</a>
+    <a class="username" data-target="#agentModal" value="user">Click 2</a>
+    <a class="username" data-target="#agentModal" value="user">Click 3</a>
+    <a class="username" data-target="#agentModal" value="user">Click 4</a>
+
+<script>
+  document.querySelectorAll('.username').forEach((el, index) => {
+  // index starts at 0, so we add 1
+  el.setAttribute('data-target', `#agentModal${index + 1}`);
+});
+</script>
+
+</body>
+</html>
