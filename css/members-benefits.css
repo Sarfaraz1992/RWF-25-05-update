@@ -1,0 +1,27 @@
+@import url("style.css");
+
+/* .fa.fa-inr {
+    color: var(--primary-color);
+} */
+
+/* members-benefits */
+.members-benefits {
+    padding: 40px 0;
+}
+.members-benefits table th,
+.members-registration table th {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+}
+.members-benefits table i {
+    color: var(--primary-color);
+}
+
+/* members-registration css */
+.members-registration {
+    padding: 40px 0;
+}
+.members-registration .alert.alert-success p {
+    margin-bottom: 0;
+}
